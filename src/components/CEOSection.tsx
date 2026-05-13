@@ -56,17 +56,10 @@ export default function CEOSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.2 }}
-              className="group relative aspect-[4/5] rounded-[2.5rem] overflow-hidden glass border-white/10 shadow-2xl"
+              className="group relative h-64 rounded-[2.5rem] overflow-hidden glass border-white/10 shadow-2xl flex flex-col justify-end p-8"
             >
-              <motion.img 
-                src={ceo.image} 
-                alt={ceo.name} 
-                className="absolute inset-0 w-full h-full object-cover grayscale transition-all group-hover:grayscale-0 duration-700"
-                whileHover={{ scale: 1.1 }}
-                transition={{ duration: 1.5, ease: "easeOut" }}
-              />
-              <div className="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity" />
-              <div className="absolute bottom-8 left-8 right-8 cursor-default">
+              <div className="absolute inset-0 bg-linear-to-br from-brand-primary/10 via-transparent to-transparent opacity-50" />
+              <div className="relative cursor-default">
                 <p className="text-brand-primary font-bold text-xs uppercase tracking-widest mb-1">{ceo.role}</p>
                 <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-brand-primary transition-colors">{ceo.name}</h3>
                 <a href={ceo.instagram} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-white/50 text-sm hover:text-white transition-colors bg-white/5 px-4 py-2 rounded-full backdrop-blur-md">

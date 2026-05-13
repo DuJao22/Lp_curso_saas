@@ -72,9 +72,14 @@ export default function Pricing() {
               ))}
             </div>
 
-            <button className="w-full py-5 rounded-2xl bg-brand-primary text-white text-xl font-bold transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)] active:scale-95">
+            <a 
+              href="https://pay.kiwify.com.br/qxuOA3n"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-5 rounded-2xl bg-brand-primary text-white text-xl font-bold transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)] active:scale-95 text-center"
+            >
               {tier.button}
-            </button>
+            </a>
             
             <p className="text-center text-white/30 text-xs mt-6">
               Compra 100% segura. Garantia de 7 dias ou seu dinheiro de volta.

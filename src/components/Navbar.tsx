@@ -20,9 +20,14 @@ export default function Navbar() {
           <a href="#faq" className="hover:text-white transition-colors">Dúvidas</a>
         </div>
 
-        <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-all active:scale-95">
+        <a 
+          href="https://pay.kiwify.com.br/qxuOA3n"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white/90 transition-all active:scale-95"
+        >
           Garantir Vaga
-        </button>
+        </a>
       </div>
     </nav>
   );

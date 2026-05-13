@@ -57,14 +57,24 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <button className="w-full sm:w-auto bg-brand-primary text-white px-8 py-4 rounded-xl text-lg font-bold hover:shadow-[0_0_30px_rgba(99,102,241,0.4)] transition-all flex items-center justify-center gap-2 group active:scale-95">
+            <a 
+              href="https://pay.kiwify.com.br/qxuOA3n"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto bg-brand-primary text-white px-8 py-4 rounded-xl text-lg font-bold hover:shadow-[0_0_30px_rgba(99,102,241,0.4)] transition-all flex items-center justify-center gap-2 group active:scale-95 text-center"
+            >
               Quero criar meu Mini SaaS
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="w-full sm:w-auto glass text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+            </a>
+            <a 
+              href="https://bio.site/Joao_Layon_DS_Company"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto glass text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-white/10 transition-all flex items-center justify-center gap-2"
+            >
               <Play className="w-4 h-4" />
               Ver demonstração
-            </button>
+            </a>
           </div>
 
           <div className="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-8 opacity-40">
