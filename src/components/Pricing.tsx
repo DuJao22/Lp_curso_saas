@@ -73,7 +73,7 @@ export default function Pricing() {
             </div>
 
             <a 
-              href="https://pay.kiwify.com.br/qxuOA3n"
+              href="https://pay.kiwify.com.br/ddDJBqO"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-5 rounded-2xl bg-brand-primary text-white text-xl font-bold transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)] active:scale-95 text-center"

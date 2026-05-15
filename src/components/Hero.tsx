@@ -58,7 +58,7 @@ export default function Hero() {
           
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a 
-              href="https://pay.kiwify.com.br/qxuOA3n"
+              href="https://pay.kiwify.com.br/ddDJBqO"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-brand-primary text-white px-8 py-4 rounded-xl text-lg font-bold hover:shadow-[0_0_30px_rgba(99,102,241,0.4)] transition-all flex items-center justify-center gap-2 group active:scale-95 text-center"

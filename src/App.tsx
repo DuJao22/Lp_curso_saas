@@ -89,7 +89,7 @@ function CTASection() {
             Não espere o mercado ficar saturado. Junte-se à elite da DS Company e construa sua própria liberdade.
           </p>
           <a 
-            href="https://pay.kiwify.com.br/qxuOA3n"
+            href="https://pay.kiwify.com.br/ddDJBqO"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-black px-10 py-5 rounded-2xl text-xl font-bold hover:scale-105 transition-all shadow-2xl active:scale-95"
@@ -125,7 +125,7 @@ function MobileStickyCTA() {
   return (
     <div className={`fixed bottom-6 left-6 right-6 z-50 md:hidden transition-all duration-500 transform ${visible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
       <a 
-        href="https://pay.kiwify.com.br/qxuOA3n"
+        href="https://pay.kiwify.com.br/ddDJBqO"
         target="_blank"
         rel="noopener noreferrer"
         className="block w-full bg-brand-primary text-white py-4 rounded-2xl font-bold shadow-[0_10px_30px_rgba(99,102,241,0.4)] active:scale-95 text-center"
